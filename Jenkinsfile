@@ -12,7 +12,6 @@ pipeline{
 
 			steps {
 				git 'pull origin main'
-                #git 'https://github.com/shazforiot/nodeapp_test.git'
 			}
 		}
 
