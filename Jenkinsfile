@@ -25,22 +25,20 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push thetips4you/nodeapp_test:latest'
+				sh 'docker push worthy98/c-n-c:1'
 			}
 		}
 	}
-  		stage('Deploy') {
+		stage('Deploy') {
 
 			steps {
-				sh 'kubectl rollout restart deploy pod-github -n gihub'
+				sh 'kubectl rollout restart deploy pod-github -n github'
 			}
 		}
-	}
 	post {
 		always {
 			sh 'docker logout'
 		}
 	}
 
-}
 }
