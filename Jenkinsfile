@@ -35,6 +35,7 @@ pipeline{
 				sh 'kubectl rollout restart deploy pod-github -n github'
 			}
 		}
+	}
 	post {
 		always {
 			sh 'docker logout'
