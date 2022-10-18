@@ -28,7 +28,7 @@ pipeline{
 				sh 'docker push worthy98/c-n-c:1'
 			}
 		}
-	}
+
 		stage('Deploy') {
 
 			steps {
