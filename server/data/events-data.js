@@ -8,7 +8,7 @@ var events = [{
     "prod-0999": "College Basketball: Georgetown at Butler",
     "summary": "Georgetown at Butler. Georgetown's D'Vauntes Smith-Rivera squares off with Butler's Kellen Dunham in a battle of senior guards. The Hoyas took two of three meetings with the Bulldogs last season."
 }, {
-    "id": "9999",
+    "id": "8888",
     "topics": "",
     "thumbnail": "/img/b-2.jpeg",
     "url": "index.html",
