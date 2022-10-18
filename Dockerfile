@@ -4,4 +4,4 @@ WORKDIR app
 RUN npm i
 RUN npm build
 CMD npm start
-EXPOSE 8080
+EXPOSE 8000

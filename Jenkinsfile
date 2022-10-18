@@ -1,6 +1,6 @@
 pipeline{
 
-	agent {label 'linux'}
+	agent {label 'dev'}
 
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
@@ -8,11 +8,10 @@ pipeline{
 
 	stages {
 	    
-	    stage('main branch') {
+	    stage('gitclone') {
 
 			steps {
-				git 'pull origin main'
-                #git 'https://github.com/shazforiot/nodeapp_test.git'
+                git 'https://github.com/shazforiot/nodeapp_test.git'
 			}
 		}
 
