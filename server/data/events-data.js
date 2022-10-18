@@ -26,7 +26,7 @@ var events = [{
     "squad-99": "WIRED Business Conference 2016",
     "summary": "On June 16, the WIRED Business Conference 2016 will take you beyond the usual tech-conference suspects. Our event is designed to introduce you to the true doers in the modern business universe. "
 }, {
-    "id": "4",
+    "id": "4444",
     "topics": "sports",
     "thumbnail": "/img/s-2.jpeg",
     "url": "index.html",
